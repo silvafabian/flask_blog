@@ -57,6 +57,6 @@ app.register_blueprint(users)
 from myapp.blog_posts.views import blog_posts
 app.register_blueprint(blog_posts)
 
-# Registering Blueprints -
-from myapp.core.views import core 
-app.register_blueprint(core)
+# # Registering Blueprints -
+# from myapp.core.views import core 
+# app.register_blueprint(core)
